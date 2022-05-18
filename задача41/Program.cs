@@ -2,7 +2,8 @@
 /* 0, 7, 8, -2, -2 -> 2
 1, -7, 567, 89, 223-> 3 */
 
-Console.WriteLine("Введите количество чисел: ");
+
+ Console.WriteLine("Введите количество чисел: ");
 int m = int.Parse(Console.ReadLine());
 
 Console.WriteLine("Введите числа: ");
@@ -18,3 +19,5 @@ foreach (double a in ar)
     count += a >3 ? 1 : 0;
 }
 Console.WriteLine($"{String.Join(", " , ar)} - > количество чисел больше 3: {count}");
+
+
