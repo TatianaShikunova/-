@@ -25,7 +25,7 @@ double [,] GetArray(int rows, int columns)
     {
         for (int j = 0; j< columns; j++)
         {
-            result [i,j] = new Random().Next(-10,10);
+            result [i,j] = Convert.ToDouble(new Random().Next(-100, 100)/(10.0));
         }
     }
     return result;
